@@ -1,0 +1,145 @@
+.latest-episodes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    .section__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 50px;
+        .main-title{
+            font-weight: normal;
+            font-size: 35px;
+            line-height: 52px;
+            letter-spacing: 0.05em;
+            color: #000000;
+        }
+        .purple {
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+    .latest-episodes__items{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        .latest-episodes__item{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 376px;
+            margin-bottom: 60px;
+            span.black-box {
+                position: absolute;
+                top: 237px;
+                right: 0px;
+                background: #1C1B1E;
+                color: #fff;
+                padding: 13px 29px;
+                border-top-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+            .latest-episodes__img {
+                background-repeat: no-repeat;
+                background-size: cover;
+                overflow: hidden;
+                width: 376px;
+                height: 280px;
+                border-radius: 10px;
+            }
+            .item-1{
+                background-image: url(../img/item-1.jpg);
+                background-position: right;
+            }
+            .item-2 {
+                background-image: url(../img/item-2.jpg);
+                background-position: center;
+            }
+            .item-3 {
+                background-image: url(../img/item-3.jpg);
+                background-position: center;
+            }
+            .item-4 {
+                background-image: url(../img/item-4.jpg);
+                background-position: center;
+            }
+            .item-5{
+                background-image: url(../img/item-5.jpg);
+                background-position: center;
+            }
+            .item-6 {
+                background-image: url(../img/item-6.jpg);
+                background-position: center;
+            }
+            .span-items{
+                display: flex;
+                align-items: center;
+                margin-top: 25px;
+                .latest-episodes__span{
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0.05em;
+                    color: #000000;
+                }
+                svg{
+                    margin: 0 12px;
+                }
+            }
+            .items-subtitle{
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: 0.02em;
+                color: #000000;
+                margin: 15px 0 10px 0;
+            }
+            .latest-episodes__footer{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .latest-episodes__play{
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    img{
+                        margin-right: 12px;
+                    }
+                }
+                .latest-episodes__time{
+                    display: flex;
+                    align-items: center;
+                    img{
+                        margin-right: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+.description{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    opacity: 0.6;
+    margin: 0;
+}
+.purple{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #9224D6;
+}
+.section__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+}

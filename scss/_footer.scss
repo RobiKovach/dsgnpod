@@ -1,0 +1,91 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .footer__content{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        .last{
+            margin-right: 0!important;
+        }
+        .footer__content-item{
+            margin-right: 120px;
+            width: 25%;
+            &:nth-child(1){
+                width: 100%;
+                padding-right: 80px;
+            }
+            .logo{
+                display: flex;
+                align-items: center;
+                margin-bottom: 12px;
+                .logo__img{
+                    margin: 0;
+                    margin-right: 18px;
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 37px;
+                    color: #FFFFFF;
+                    padding: 5px 16px;
+                    background: linear-gradient(238.08deg, #A248D9 -25.15%, #ECCDFF 127.57%);
+                    border-radius: 50%;
+                }
+                .logo__title{
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 37px;
+                    letter-spacing: 0.05em;
+                    color: #1C1B1E;
+                    margin: 0;
+                }
+                .description{
+                    margin: 0;
+                }
+            }
+            .footer__subtitle{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.02em;
+                color: #000000;
+                margin: 0 0 26px 0;
+            }
+            a{
+                text-decoration: none;
+            }
+            .description{
+                margin-bottom: 13px;
+            }
+        }
+    }
+    .footer__social{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        padding-bottom: 17px;
+        margin-bottom: 28px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+        a{
+            text-decoration: none;
+            .link{
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 21px;
+                letter-spacing: 0.02em;
+                color: #000000;
+                margin: 0;
+            }
+        }
+        .tag{
+            margin: 0 23px;
+        }
+    }
+    .footer__copyright{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 26px;
+    }
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: #fff;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 123px;
+}
+@import "header";
+@import "latest-episodes";
+@import "meet-your-host";
+@import "shop";
+@import "contact";
+@import "footer";
+@import "media";
